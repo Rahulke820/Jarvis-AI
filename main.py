@@ -40,7 +40,7 @@ def chatbot_response(query):
         return "Sorry, I couldn't fetch information."
 
 if __name__ == "__main__":
-    speak("Hello. Ask me anything and I will tell you from Wikipedia.")
+    speak("Hello Rahul Sir. Ask me anything and I will tell you from Wikipedia.")
 
     while True:
         query = listen()
